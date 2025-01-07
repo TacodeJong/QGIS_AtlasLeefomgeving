@@ -42,8 +42,7 @@ class NLWFSLoaderDialog(QDialog, FORM_CLASS):
         self.serverComboBox.addItem("Atlas Leefomgeving - RIVM ALO WFS", "https://data.rivm.nl/geo/alo/wfs")
         self.serverComboBox.addItem("Risicokaart - REV WFS", "https://rev-portaal.nl/geoserver/wfs/rev_public")
         self.serverComboBox.addItem("Atlas Natuurlijk Kapitaal - RIVM ANK WFS", "https://data.rivm.nl/geo/ank/wfs")
-        self.serverComboBox.addItem("RIVM NL WFS", "https://data.rivm.nl/geo/nl/wfs")
-        self.serverComboBox.addItem("RIVM Basisnet WFS", "https://data.rivm.nl/geo/basisnet/ows")
+        self.serverComboBox.addItem("VWS - RIVM NL WFS", "https://data.rivm.nl/geo/nl/wfs")
         # self.serverComboBox.addItem("RIVM Basisnet WFS", "https://data.rivm.nl/geo/basisnet/wms")
         self.serverComboBox.addItem("GEODAN WFS", " https://apps.geodan.nl/public/data/org/gws/YWFMLMWERURF/kea_public/wfs")
 
