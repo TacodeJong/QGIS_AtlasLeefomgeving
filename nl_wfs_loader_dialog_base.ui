@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NLWFSLoaderDialogBase</class>
+ <widget class="QDialog" name="NLWFSLoaderDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NL WFS Loader</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="statusLabel">
+     <property name="text">
+      <string>Status...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="serverComboBox"/>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="layerTableWidget"/>
+   </item>
+   <item>
+    <widget class="QProgressBar" name="progressBar"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="loadLayersButton">
+     <property name="text">
+      <string>Load Layers</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="addLayerButton">
+     <property name="text">
+      <string>Add Selected Layer</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
