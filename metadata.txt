@@ -10,7 +10,8 @@ version=0.1
 author=T.  de Jong
 email=taco@tictaco.nl
 
-about=Provide a brief description of the plugin and its purpose.Deze plugin laad publiek beschikbare, maar lastig vindbare, WFS lagen.
+about=Onder andere de kaartlagen van de Atlas de Leefomgeving (RIVM ALO) de Atlas Natuurlijk Kapitaal (RIVM ANK) en de Risicokaart. Polygoon- en puntdata wordt correct geladen.<br><br>Het doel was om lagen van de atlassen te kunnen downloaden als features. De website maken gebruik van WMS lagen. Dit bleek mogelijk.<br><br>Gebruik RapidAPI om de endpoints te controleren.
+<br><br>https://www.atlasleefomgeving.nl<br>https://www.atlasnatuurlijkkapitaal.nl<br>https://www.risicokaart.nl
 
 tracker=https://github.com/TacodeJong/QGIS_AtlasLeefomgeving/issues
 repository=https://github.com/TacodeJong/QGIS_AtlasLeefomgeving
