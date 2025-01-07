@@ -12,8 +12,8 @@ email=taco@tictaco.nl
 
 about=Provide a brief description of the plugin and its purpose.Deze plugin laad publiek beschikbare, maar lastig vindbare, WFS lagen.
 
-tracker=https://github.com/TacodeJong/QGIS_Verkeersborden/issues
-repository=https://github.com/TacodeJong/QGIS_Verkeersborden/
+tracker=https://github.com/TacodeJong/QGIS_AtlasLeefomgeving/issues
+repository=https://github.com/TacodeJong/QGIS_AtlasLeefomgeving
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +25,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=python
 
-homepage=https://github.com/TacodeJong/QGIS_Verkeersborden/
+homepage=https://github.com/TacodeJong/QGIS_AtlasLeefomgeving
 category=Plugins
 icon=icon.svg
 # experimental flag
